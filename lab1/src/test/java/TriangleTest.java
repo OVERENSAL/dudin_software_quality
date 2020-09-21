@@ -27,7 +27,15 @@ public class TriangleTest {
     }
 
     @Test
-    public void main_EnterEmptyLine_ShouldReturnInvalidDataEntered(){
+    public void main_EnterEmptyLine_ShouldReturnExit(){
+        ByteArrayInputStream in = new ByteArrayInputStream(("").getBytes());
+        System.setIn(in);
+        triangle.readTriangle();
+        assertEquals("", stream.toString());
+    }
+
+    @Test
+    public void main_EnterSpace_ShouldReturnInvalidDataEntered(){
         ByteArrayInputStream in = new ByteArrayInputStream((" ").getBytes());
         System.setIn(in);
         triangle.readTriangle();
