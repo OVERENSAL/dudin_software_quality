@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TriangleTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-09-14T17:30:30" hostname="LAPTOP-LCKOCNDG" time="0.057">
+  <properties/>
+  <testcase name="main_EnterDataWithSpaces_ShouldReturnOrdinaryTriangle" classname="TriangleTest" time="0.005"/>
+  <testcase name="main_EnterIsoscelesData_ShouldReturnIsoscelesTriangle" classname="TriangleTest" time="0.001"/>
+  <testcase name="main_EnterNegativeData_ShouldReturnInvalidData" classname="TriangleTest" time="0.001"/>
+  <testcase name="main_EnterOneSide_ShouldReturnInvalidDataEntered" classname="TriangleTest" time="0.0"/>
+  <testcase name="main_EnterNegativeDataWithSpaces_ShouldReturnInvalidData" classname="TriangleTest" time="0.001"/>
+  <testcase name="main_EnterDataWithSpacesInStart_ShouldReturnOrdinaryTriangle" classname="TriangleTest" time="0.0"/>
+  <testcase name="main_EnterMaxInt_ShouldReturnEquilateralTriangle" classname="TriangleTest" time="0.0"/>
+  <testcase name="main_EnterNonValidData_ShouldReturnInvalidData" classname="TriangleTest" time="0.015"/>
+  <testcase name="main_EnterZeroSide_ShouldReturnInvalidData" classname="TriangleTest" time="0.003"/>
+  <testcase name="main_EnterEmptyLine_ShouldReturnInvalidDataEntered" classname="TriangleTest" time="0.002"/>
+  <testcase name="main_EnterMoreSides_ShouldReturnInvalidDataEntered" classname="TriangleTest" time="0.001"/>
+  <testcase name="main_EnterValidDataWithSpaces_ShouldReturnEquilateralTriangle" classname="TriangleTest" time="0.0"/>
+  <testcase name="main_EnterThreeSides_ShouldReturnThatTriangleIsNotExists" classname="TriangleTest" time="0.003"/>
+  <testcase name="main_EnterDoubleIsoscelesData_ShouldReturnIsoscelesTriangle" classname="TriangleTest" time="0.002"/>
+  <testcase name="main_EnterValidData_ShouldReturnEquilateralTriangle" classname="TriangleTest" time="0.001"/>
+  <testcase name="main_EnterNonDigitData_ShouldReturnInvalidData" classname="TriangleTest" time="0.003"/>
+  <testcase name="main_EnterTwoSides_ShouldReturnInvalidDataEntered" classname="TriangleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
